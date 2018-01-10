@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+
+}
+
+header {
+    background: lightgray;
+    overflow: auto;
+    margin-bottom: 40px;
+}
+
+nav {
+    float: right;
+    background: lightslategray;
+}
+
+#logo {
+    background: blue;
+    float: left;
+}
+
+#full{
+    width: 960px;
+    clear: both;
+    margin: auto;
+    position: relative;
+}
+
+#main {
+    background: red;
+    width: 650px;
+    position: absolute;
+    left:0;
+
+}
+
+aside {
+    background: yellow;
+    width: 270px;
+    position: absolute;
+    right: 0;
+}
+
+footer {
+    background: green;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
