@@ -4,65 +4,68 @@
 <head>
     <title>Portfolio</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
 </head>
 
 <body>
-    <section id="hfull">
-        <h1 id=logo>Lauren Cantlin</h1>
-        <nav>
-            <a href="index.html">About</a> |
-            <a href="portfolio.html">Portfolio</a> |
-            <a href="contact.html">Contact</a>
-        </nav>
-    </section>
+    <header>
+        <div class="wrapper">
+            <h1 id=logo>Lauren Cantlin</h1>
+            <nav>
+                <a href="index.html">About</a> |
+                <a href="portfolio.html">Portfolio</a> |
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-
-    <section id=full>
+    <div class="wrapper">
         <section id=main>
             <h2>Portfolio</h2>
 
             <div id="project1">
-                <h3>Project 1</h3>
-                <a href="#">
+                <!-- <a href="#" > -->
                     <img src="assets/images/hangman.png" alt="#" />
-                </a>
+
+                <!-- </a> -->            <h3 class="h3project1">Project 1</h3>
+
             </div>
 
-            <div>
-                <h3>Project 2</h3>
-                <a href="#">
+            <div id="project2">
                     <img src="assets/images/rutgers.png" alt="#" />
-                </a>
+                    <h3 class="h3project2">Project 2</h3>
+
             </div>
 
-            <div>
-                <h3>Project 3</h3>
-                <a href="#">
+            <div id="project3">
+                <!-- <a href="#"> -->
                     <img src="assets/images/trivia.png" alt="#" />
+                <!-- </a> -->
+                <h3 class="h3project3">Project 3</h3>
+
+            </div>
+        </section>
+
+        <aside>
+            <h3>Connect with Me</h3>
+
+            <div class="sociallinks">
+                    <a href="https://github.com/laurencantlin">
+                    <img src="assets/images/github.png" alt="lauren cantlin github" />
+                </a>
+
+                <a href="https://www.linkedin.com/in/cantlin/">
+                    <img src="assets/images/linkedin.png" alt="lauren cantlin linkedin" />
+                </a>
+
+                <a href="https://stackoverflow.com/users/8536292/lauren-cantlin">
+                    <img src="assets/images/stackoverflow.png" alt="lauren cantlin stack overflow" />
                 </a>
             </div>
-
-            <aside> <h3>Connect with Me</h3>
-            
-                <div>  <a href="https://github.com/laurencantlin">
-                    <img src="assets/images/github.png" alt="lauren cantlin github"/>
-                </a>
-    
-                <a href="https://www.linkedin.com/in/cantlin/">
-                    <img src="assets/images/linkedin.png" alt="lauren cantlin linkedin"/>
-                </a>
-    
-                <a href="https://stackoverflow.com/users/8536292/lauren-cantlin">
-                    <img src="assets/images/stackoverflow.png" alt="lauren cantlin stack overflow"/>
-                </a>
-                </div>
-            </aside>
-           
-
-            <footer>
-                Footer Content
-            </footer>
+        </aside>
+    </div>
+    <footer>
+        Footer Content
+    </footer>
 </body>
 
 </html>

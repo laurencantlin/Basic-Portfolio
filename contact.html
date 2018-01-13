@@ -3,79 +3,70 @@
 
 <head>
     <title>Contact</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style - Copy.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <div class="wrapper">
-                <h1>Lauren Cantlin</h1>
-                <nav>
-                    <a href="index.html">About</a> |
-                    <a href="portfolio.html">Portfolio</a> |
-                    <a href="contact.html">Contact</a>
-                </nav>
-            </div>
-        </header>
-
-        <div id="body">
-            <div class="wrapper">
-                <div>
-                    <h2>Contact</h2>
-
-                    <form action="#">
-                        Name:
-                        <input type="text" name="name" value="John Smith">
-                        <br /> Email:
-                        <input type="text" name="email" value="example@gmail.com">
-                        <br /> Message:
-                        <input type="text" name="message">
-                        <br />
-                        <input type="submit" value="Submit">
-                    </form>
-                </div>
-
-                <aside>
-                    <h3>Connect with Me</h3>
-                    Github Link | LinkedIn | Stack Overflow
-                </aside>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac felis nulla. Donec venenatis a lacus ac dictum.
-                    Quisque eu nibh quam. Aenean eros tellus, feugiat eget arcu in, venenatis imperdiet risus. Vivamus at
-                    dictum nibh, suscipit dictum metus. Nulla tempor, quam a dapibus varius, nisl enim rutrum ante, ac dapibus
-                    erat nisi et sem. Suspendisse nec ipsum condimentum, pretium tellus sit amet, hendrerit massa. Duis eget
-                    semper dolor, ut mollis lacus. Nulla fringilla vestibulum felis et elementum.
-                </p>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac felis nulla. Donec venenatis a lacus ac dictum.
-                    Quisque eu nibh quam. Aenean eros tellus, feugiat eget arcu in, venenatis imperdiet risus. Vivamus at
-                    dictum nibh, suscipit dictum metus. Nulla tempor, quam a dapibus varius, nisl enim rutrum ante, ac dapibus
-                    erat nisi et sem. Suspendisse nec ipsum condimentum, pretium tellus sit amet, hendrerit massa. Duis eget
-                    semper dolor, ut mollis lacus. Nulla fringilla vestibulum felis et elementum.
-                </p>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac felis nulla. Donec venenatis a lacus ac dictum.
-                    Quisque eu nibh quam. Aenean eros tellus, feugiat eget arcu in, venenatis imperdiet risus. Vivamus at
-                    dictum nibh, suscipit dictum metus. Nulla tempor, quam a dapibus varius, nisl enim rutrum ante, ac dapibus
-                    erat nisi et sem. Suspendisse nec ipsum condimentum, pretium tellus sit amet, hendrerit massa. Duis eget
-                    semper dolor, ut mollis lacus. Nulla fringilla vestibulum felis et elementum.
-                </p>
-
-                <p>Proin lacinia turpis id lacinia bibendum. Nam at nisi est. Nunc sit amet euismod dui. Nullam tempor est mi,
-                    tempus consequat mauris blandit non. Ut finibus enim et lobortis volutpat. Curabitur a urna vitae arcu
-                    feugiat aliquet. Proin fermentum nunc ligula, nec bibendum justo porta accumsan. Etiam sagittis commodo
-                    massa, vel molestie odio malesuada sit amet. Mauris eu volutpat libero, et dictum neque. Curabitur vestibulum
-                    erat quis dolor sagittis, iaculis mollis magna ullamcorper.
-                </p>
-            </div>
+    <header>
+        <div class="wrapper">
+            <h1 id=logo>Lauren Cantlin</h1>
+            <nav>
+                <a href="index.html">About</a> |
+                <a href="portfolio.html">Portfolio</a> |
+                <a href="contact.html">Contact</a>
+            </nav>
         </div>
+    </header>
 
+    <div class="wrapper">
+        <section id="main">
+            <h2>Contact</h2>
 
-        <footer>
-            Footer Content
-        </footer>
+            <form action="mailto:laurencantlin2018@u.northwestern.edu" method="post" enctype="text/plain">
+            
+                <label for="name">Name:</label>
+                </br>
+                <input type="text" name="name" value="John Smith" id="name" class="formline">
+                </br>
+
+                <label for="email">Email:</label>
+                </br>
+                <input type="text" name="email" id=email value="example@gmail.com" class="formline">
+                <br />
+
+                <label for="comment">Comment:</label>
+                </br>
+                <textarea rows="4" cols="50" name="comment" class="formbox" id="comment">
+                        </textarea> </br>
+
+                <input type="submit" value="Submit" class="formbutton">
+            </form>
+        </section>
+
+        <aside>
+            <h3>Connect with Me</h3>
+            <div class="sociallinks">
+                <a href="https://github.com/laurencantlin">
+                    <img src="assets/images/github.png" alt="lauren cantlin github" />
+                </a>
+
+                <a href="https://www.linkedin.com/in/cantlin/">
+                    <img src="assets/images/linkedin.png" alt="lauren cantlin linkedin" />
+                </a>
+
+                <a href="https://stackoverflow.com/users/8536292/lauren-cantlin">
+                    <img src="assets/images/stackoverflow.png" alt="lauren cantlin stack overflow" />
+                </a>
+            </div>
+        </aside>
     </div>
+
+
+
+
+    <footer>
+        Footer Content
+    </footer>
 </body>
 
 </html>
